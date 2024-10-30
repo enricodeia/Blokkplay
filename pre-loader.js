@@ -8,7 +8,7 @@ window.onload = function() {
     tl.to({}, {
       duration: 1.5,
       onUpdate: function() {
-        document.querySelector('#counter').textContent = Math.round(this.progress() * 100) + '%';
+       document.querySelector('#counter').textContent = Math.round(this.progress() * 100) + '%';
       }
     });
 
